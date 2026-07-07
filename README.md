@@ -12,6 +12,9 @@ git pull origin main
 So you can use:
 
 ```python
-gemini = OpenAI(base_url="https://generativelanguage.googleapis.com/v1beta/openai/", api_key="AIz....")
+gemini = OpenAI(
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+    api_key="AIz....",
+)
 gemini.chat.completions.create(...)
 ```
