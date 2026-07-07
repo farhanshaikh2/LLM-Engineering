@@ -7,6 +7,7 @@ git add .
 git commit -m "lenovo commit"
 git push origin main
 
+git pull origin main
 
 So you can use:
 
